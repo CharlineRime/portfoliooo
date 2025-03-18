@@ -19,12 +19,60 @@
     />
   </head>
   <body>
-    <h1>Projets</h1>
-    <a href="index.html">Accueil</a>
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col">
+            <div class="header-categories">
+              <a href="index.html" class="header-category">Accueil</a>
+              <a href="projets.html" class="header-category">Projets</a>
+              <a href="apropos.html" class="header-category">A propos</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><h1 class="projets-main-title">Mes projets</h1></div>
+        </div>
+        <div class="row">
+          <div class="col"><div class="l-first-line"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="projets-premier">
+        <div class="projets-explications">
+          <div class="row">
+            <div class="col-11 offset-1">
+              <extends
+                src="project.html"
+                locals='{"title": "Au boulot!"}'
+              ></extends>
+            </div>
 
-    <extends src="project.html" locals='{"title": "Au boulot!"}'></extends>
-    <extends src="project.html" locals='{"title": "Retraite"}'></extends>
-    <extends src="project.html" locals='{"title": "Documentaire"}'></extends>
+            <div class="col-11 offset-1"><p>Année</p></div>
+
+            <div class="col-11 offset-1">
+              <p>Logiciels ou matériel ou technique</p>
+            </div>
+            <div class="col-11 offset-1">
+              <a href="projets.html" class="bouton projets-bouton"
+                >Détails du projet</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-5">
+            <img
+              class="projets-img"
+              src="./img/proj-marc/marc1.jpg"
+              alt="Projet au boulot"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <extends src="footer.html"></extends>
 
