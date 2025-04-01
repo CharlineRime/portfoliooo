@@ -7,3 +7,23 @@
 .apropos-intro {
   margin-bottom: 20px;
 }
+
+.apropos-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+
+.apropos-spacing {
+  margin-top: 80px;
+}
+
+.apropos-text-spacing {
+  margin-bottom: 30px;
+}
+.apropos-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
