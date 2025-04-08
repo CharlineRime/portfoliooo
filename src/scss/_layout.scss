@@ -12,7 +12,16 @@
   border-bottom: 1px solid white;
 }
 
-.l-background-img {
+.l-background-img1 {
   background-image: url("/src/img/fonds/fond3.png");
+  background-size: cover;
+}
+
+.l-background-img2 {
+  background-image: url("/src/img/fonds/fond4.png");
+  background-size: cover;
+}
+.l-background-img3 {
+  background-image: url("/src/img/fonds/fond5.png");
   background-size: cover;
 }
