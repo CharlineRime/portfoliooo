@@ -12,16 +12,19 @@
   border-bottom: 1px solid white;
 }
 
-.l-background-img1 {
-  background-image: url("/src/img/fonds/fond3.png");
-  background-size: cover;
+.l-background-img {
+  background-image: url("/src/img/fonds/fond.png");
+  background-size: 200%;
+  animation: changebg1 10s ease-in-out infinite;
 }
 
-.l-background-img2 {
-  background-image: url("/src/img/fonds/fond4.png");
-  background-size: cover;
-}
-.l-background-img3 {
-  background-image: url("/src/img/fonds/fond5.png");
-  background-size: cover;
+@keyframes changebg1 {
+  0%,
+  100% {
+    background-position: 0;
+  }
+
+  50% {
+    background-position: 100%;
+  }
 }
