@@ -1,0 +1,46 @@
+.slider {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.slider-image-before {
+  display: block;
+}
+
+.slider-image-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.slider-separator {
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-2px);
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-handler {
+  width: 31px;
+  height: 31px;
+  background: white;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+.slider-range {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
